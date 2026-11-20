@@ -1,7 +1,7 @@
 					CS310 – Computer Networks
 			Assignment 1: File Transfer System using TCP Socket Programming
 
-### PROJECT DESCRIPTION
+PROJECT DESCRIPTION
 
 This project implements a simple file transfer system using Python socket programming over TCP. It consists of a server program and a client program that communicate over a localhost connection.
 
@@ -23,7 +23,7 @@ The project demonstrates key networking concepts such as socket programming, cli
 
 Step 1: Open Command Prompt and go to the server folder
 
-	cd Desktop\Kartik_S11229876_FileTransfer_Assignment\server
+	e.g cd Desktop\Kartik_S11229876_FileTransfer_Assignment\server
 
 
 Step 2: Start the server
@@ -35,7 +35,7 @@ Step 2: Start the server
 
 Step 3: Open a new Command Prompt window and navigate to the client folder
 
-	cd Desktop\Kartik_S11229876_FileTransfer_Assignment\client
+	e.g cd Desktop\Kartik_S11229876_FileTransfer_Assignment\client
 
 
 Step 4: Run the client
@@ -60,7 +60,6 @@ Examples:
 4. If the file exists:
 	- The server sends a confirmation message along with file size.
 	- The file is transmitted in chunks.
-
 5. The client receives the file and writes it to a new file.
 6. A progress bar is displayed showing the percentage of download.
 7. Once the transfer is complete, both server and client display success messages.

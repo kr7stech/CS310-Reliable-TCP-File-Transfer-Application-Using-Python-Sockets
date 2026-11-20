@@ -1,9 +1,6 @@
 # Student Name: Kartik Kris Pillay
 # Student ID: S11229876
 
-# Student Name: Nichel Lal
-# Student ID: S11230115
-
 import socket          # Used to enable client-server network communication
 import os              # Used to handle file paths and file naming
 
